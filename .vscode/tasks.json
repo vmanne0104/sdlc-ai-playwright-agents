@@ -1,0 +1,9 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "Run all tests + build HTML report", "type": "shell", "command": "npm test", "group": "test", "problemMatcher": [] },
+    { "label": "Run UI tests", "type": "shell", "command": "npm run test:ui", "problemMatcher": [] },
+    { "label": "Run API tests", "type": "shell", "command": "npm run test:api", "problemMatcher": [] },
+    { "label": "Open SDLC HTML report", "type": "shell", "command": "npm run report", "problemMatcher": [] }
+  ]
+}
